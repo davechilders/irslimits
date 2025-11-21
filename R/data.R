@@ -55,7 +55,7 @@
 #'
 #' Most medicare enrollees will pay the standard premium for Medicare Part B. High-income medicare enrollees
 #' have to pay additional premiums due to IRMAA (Income-Related Monthly Adjustment Amount) if income is above
-#' a certain threshold. See [?irmaa] for data on IRMAA thresholds.
+#' a certain threshold. See `irmaa` data for IRMAA thresholds.
 #'
 #' @format ## `premiums_b`
 #' A data frame with 21 rows and 2 columns:
