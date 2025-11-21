@@ -1,0 +1,27 @@
+#' Health Savings Account (HSA) Contribution limits
+#'
+#' Data set with IRS limits (in US dollars) for contributions to health savings
+#' accounts.
+#'
+#' The differences between single and family HSAs can be confusing. All HSAs are owned individually
+#' (even if your health insurance is family coverage). HSAs cannot be jointly owned by both spouses.
+#' If you are enrolled in a self-only high-deductible health plan (HDHP), you have a single HSA.
+#' If you are enrolled in a family HDHP (you and at least one other person), you are enrolled in a family HSA.
+#'
+#' In both single and family HSAs, funds can be spend on medical expenses for yourself,
+#' spouse, or dependents.
+#'
+#' The $1,000 catch-up contribution is per-person age 55+. However, you cannot make more than one
+#' catch-up contribution to the same HSA.
+#'
+#' @format ## `hsa_limits`
+#' A data frame with 7 rows and 4 columns:
+#' \describe{
+#'   \item{year}{Tax year}
+#'   \item{single}{Annual contribution limit for single HSAs}
+#'   \item{family}{Annual contribution limit for family HSAs}
+#'   \item{catchup}{The extra catch-up contribution available per person age 55+}
+#'   ...
+#' }
+#' @source <https://dqydj.com/historical-hsa-contribution-limit/>
+"hsa_limits"
