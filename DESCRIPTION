@@ -1,5 +1,5 @@
 Package: irslimits
-Title: Limits for IRS Packages
+Title: IRS Contribution Limits and Thresholds
 Version: 0.0.1
 Authors@R: 
     person("Dave", "Childers", , "childers.dave@gmail.com", role = c("aut", "cre"))
