@@ -25,6 +25,26 @@
 #' @source <https://dqydj.com/historical-hsa-contribution-limit/>
 "hsa_limits"
 
+#' IRMAA adjustments per income bracket.
+#'
+#' Data set provides the IRMAA (Income-Related Monthly Adjustment Amount) adjustments to Medicare Part B
+#' premiums based on income (Modified Adjusted Gross Income). Because these IRMAA brackets are different
+#' per filing status and year, there is one row per year/filing status/bracket combination.
+#'
+#'
+#' @format ## `premiums_b`
+#' A data frame with 15 rows and 6 columns:
+#' \describe{
+#'   \item{year}{Tax year}
+#'   \item{filing}{Tax filing status (single, married filing separately, married filing jointly)}
+#'   \item{magi_low}{Modified Adjusted Gross Income (MAGI) at low end of IRMAA bracket}
+#'   \item{magi_high}{MAGI at high end of IRMAA bracket}
+#'   \item{adjustment}{IRMAA addition to base Medicare B premium}
+#'   \item{adjustment}{Total monthly premium for Medicare Part B, including IRMAA}
+#' }
+#' @source <https://www.humana.com/medicare/medicare-resources/irmaa>
+"irmaa"
+
 #' Medicare Part B Premiums by Year
 #'
 #' Data set that gives the Medicare Part B monthly premiums by year.
