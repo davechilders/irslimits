@@ -13,7 +13,6 @@ A data frame with 7 rows and 4 columns:
 \item{single}{Annual contribution limit for single HSAs}
 \item{family}{Annual contribution limit for family HSAs}
 \item{catchup}{The extra catch-up contribution available per person age 55+}
-...
 }
 }
 }

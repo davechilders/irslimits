@@ -21,7 +21,27 @@
 #'   \item{single}{Annual contribution limit for single HSAs}
 #'   \item{family}{Annual contribution limit for family HSAs}
 #'   \item{catchup}{The extra catch-up contribution available per person age 55+}
-#'   ...
 #' }
 #' @source <https://dqydj.com/historical-hsa-contribution-limit/>
 "hsa_limits"
+
+#' Medicare Part B Premiums by Year
+#'
+#' Data set that gives the Medicare Part B monthly premiums by year.
+#'
+#' It is a very common misconception that "you get Medicare for free at age 65."
+#' Part A (hospital insurance) is usually premium-free. But Part B (outpatient) always has a monthly
+#' premium.
+#'
+#' Most medicare enrollees will pay the standard premium for Medicare Part B. High-income medicare enrollees
+#' have to pay additional premiums due to IRMAA (Income-Related Monthly Adjustment Amount) if income is above
+#' a certain threshold. See [?irmaa] for data on IRMAA thresholds.
+#'
+#' @format ## `premiums_b`
+#' A data frame with 21 rows and 2 columns:
+#' \describe{
+#'   \item{year}{Tax year}
+#'   \item{premium}{Monthly premium for Medicare Part B}
+#' }
+#' @source <https://www.healthline.com/health/medicare/medicare-part-b-premium-increase-history#part-b-increase-history>
+"premiums_b"
